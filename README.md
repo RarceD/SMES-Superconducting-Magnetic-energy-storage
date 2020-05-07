@@ -12,13 +12,20 @@ Superconducting magnetic energy storage (SMES) systems store energy in the magne
 |:-----: | :-: | :-: |
 |Power   | 2,4 | MVA | 
 |Seconds | 1,2 | kV  | 
+
+### Calculate the current:
 Using the: E = 1/2 * L * I^2 formula we can obtein the current inside the inductance.
 
 ### Vector control:
 The control is done with a dsPIC24 processor using 3D vector control:
-<img src="https://github.com/RarceD/procrasting_py/blob/master/genetic_algorithm/dot_follower/dot_game_genetic.PNG" alt="drawing" width="400"/>
-The control is done with a dsPIC24 processor using 3D vector control:
 
-### Vector control:
-The control is done with a dsPIC24 processor using 3D vector control:
-<img src="https://github.com/RarceD/procrasting_py/blob/master/genetic_algorithm/dot_follower/dot_game_genetic.PNG" alt="drawing" width="400"/>
+<img src="https://github.com/RarceD/SMES-Superconducting-Magnetic-energy-storage/blob/master/Imagenes/controlVectorial.JPG" alt="drawing" width="400"/>
+
+
+### Topology control:
+<img src="https://github.com/RarceD/SMES-Superconducting-Magnetic-energy-storage/blob/master/Imagenes/Topology.JPG" alt="drawing" width="400"/>
+
+## 3.0 PCB DESIGN ##
+I have used KiCad for designing the 2 layers board, this PCB handle the power and the isolated signals from the dsPIC.
+
+<img src="https://github.com/RarceD/SMES-Superconducting-Magnetic-energy-storage/blob/master/Imagenes/PCB.JPG" alt="drawing" width="400"/>
